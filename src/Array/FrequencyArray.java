@@ -33,9 +33,9 @@ public class FrequencyArray {
             System.out.print("Enter the number to be searched : ");
             int number = sc.nextInt();
             if (freq[number] > 0) {
-                System.out.println("<---YES--->");
+                System.out.println("<----YES---->");
             } else {
-                System.out.println("<---NO--->");
+                System.out.println("<----NO---->");
             }
             q--;
         }
