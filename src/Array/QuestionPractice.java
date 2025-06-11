@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class QuestionPractice {
     public static void main(String[] args) {
+        System.out.println("hello world");
 
 //    void display(int[] arr) {
 //        for (int i = 0; i < arr.length; i++) {
