@@ -12,15 +12,13 @@ This project is a **self-tracking journal** of my growth and hard work as I impr
 - Organized into **folders by topic** (e.g., Arrays, Strings, Trees, Recursion, etc.)
 - Each folder contains:
   - Java solution files
-  - 📝 *~50% of solutions also contain the original question in comments*
 
 ---
 
 ## ✅ What's Inside
 
 - ✅ Clean, well-structured Java code
-- ✅ A mix of **easy, medium, and hard** problems
-- ✅ Ideal for students or developers looking for clear Java DSA implementations
+- ✅ Ideal for students looking for clear Java DSA implementations
 - ✅ Great way to track **how much effort and consistency** I’ve put into mastering problem-solving
 
 ---
@@ -38,7 +36,7 @@ As a student with a deep interest in software development, I created this reposi
 
 ## 🛠 Technologies Used
 
-- Java 8+
+- Java 21+
 - VS Code / IntelliJ IDEA
 - LeetCode as the primary source of questions
 
@@ -54,9 +52,8 @@ As a student with a deep interest in software development, I created this reposi
 ## 🙌 Future Goals
 
 - [ ] Add more comments/explanations to 100% of problems
-- [ ] Complete 500+ LeetCode questions
+- [ ] Complete 200+ LeetCode questions
 - [ ] Build a simple site to showcase problems visually
-- [ ] Include time and space complexity for each solution
 
 ---
 
