@@ -15,7 +15,12 @@ import java.util.Scanner;
 
 public class QuestionPractice {
     public static void main(String[] args) {
-        System.out.println("hello world");
+//        int[] arr = {13, 54, 36, 8, 34, 9, 49, 8, 644, 564, 67, 334, 87};
+//        for(int i=1;i<=arr.length;i++){
+//            System.out.println(arr[i]);
+//        }
+
+//        System.out.println("hello world");
 
 //    void display(int[] arr) {
 //        for (int i = 0; i < arr.length; i++) {
