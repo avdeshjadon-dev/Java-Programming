@@ -1,3 +1,28 @@
+// ------------------- 🔹 Insert an Element into Array 🔹 -------------------
+//
+// 💡 Write a Java program to insert an element into an existing array at a specific index.
+// The array should shift elements to the right to make space for the new value.
+//
+// 🧠 You will:
+// - Take array input from the user
+// - Ask for the new element and the index to insert it at
+// - Print the new array after insertion
+//
+// ------------------- 🧾 SAMPLE INPUT -------------------
+// Enter the size of Array : 4
+// Enter the 1 element of the array : 10
+// Enter the 2 element of the array : 20
+// Enter the 3 element of the array : 30
+// Enter the 4 element of the array : 40
+//
+// Original Array is : 10 20 30 40
+// Enter the element you want to insert : 25
+// Enter the position from 0 to 4 : 2
+//
+// ------------------- 📤 SAMPLE OUTPUT -------------------
+// Array After insertion : 10 20 25 30 40
+
+
 package Array;
 
 import java.util.Arrays;

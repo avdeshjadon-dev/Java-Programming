@@ -1,3 +1,23 @@
+// ------------------- 🔹 Unique Element 🔹 -------------------
+//
+// 💡 Write a Java program to find the unique element in an integer array.
+// A unique element is the one that appears **only once**, while all other elements may appear multiple times.
+//
+// 🧠 The program should check each element against the others to determine its uniqueness.
+//
+// ------------------- 🧾 SAMPLE INPUT -------------------
+// Enter the size of Array : 5
+// Enter the 1 element of the array : 2
+// Enter the 2 element of the array : 3
+// Enter the 3 element of the array : 5
+// Enter the 4 element of the array : 3
+// Enter the 5 element of the array : 2
+//
+// ------------------- 📤 SAMPLE OUTPUT -------------------
+// Original Array is : 2 3 5 3 2
+// Unique Element is : 5
+
+
 package Array;
 
 import java.util.Scanner;

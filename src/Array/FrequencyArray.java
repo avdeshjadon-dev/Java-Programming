@@ -1,3 +1,33 @@
+// ------------------- 🔹 Frequency Checker in Array 🔹 -------------------
+//
+// 💡 Write a Java program to build a frequency array from user input.
+// Then, allow the user to run multiple queries to check whether a particular number exists in the array.
+//
+// 🧠 Use a frequency array to count how many times each number appears.
+// Respond with "YES" if the number is found, otherwise "NO".
+//
+// ------------------- 🧾 SAMPLE INPUT -------------------
+// Enter the size of Array : 6
+// Enter the 1 element of the array : 3
+// Enter the 2 element of the array : 5
+// Enter the 3 element of the array : 3
+// Enter the 4 element of the array : 1
+// Enter the 5 element of the array : 7
+// Enter the 6 element of the array : 9
+//
+// ------------------- 📤 SAMPLE OUTPUT -------------------
+//
+// Original Array is : 3 5 3 1 7 9
+// Enter the number of queries : 3
+// Enter the number to be searched : 3
+// <----YES---->
+// Enter the number to be searched : 2
+// <----NO---->
+// Enter the number to be searched : 7
+// <----YES---->
+
+
+
 package Array;
 
 import java.util.Scanner;

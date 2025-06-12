@@ -1,3 +1,27 @@
+// ------------------- 🔹 Delete an Element from Array 🔹 -------------------
+//
+// 💡 Write a Java program that takes an integer array and a value from the user,
+// and deletes the **first occurrence** of that value from the array (if it exists).
+// Shift the remaining elements to the left and print the new array.
+//
+// 🧠 If the element is not found, display: "No element were found".
+// Otherwise, display the updated array after deletion.
+//
+// ------------------- 🧾 SAMPLE INPUT -------------------
+// Enter the size of Array : 5
+// Enter the 1 element of the array : 10
+// Enter the 2 element of the array : 20
+// Enter the 3 element of the array : 30
+// Enter the 4 element of the array : 40
+// Enter the 5 element of the array : 50
+//
+// Original Array is : 10 20 30 40 50
+// Enter the element you want to remove : 30
+//
+// ------------------- 📤 SAMPLE OUTPUT -------------------
+// Array after removal of element 30 : 10 20 40 50
+
+
 package Array;
 
 import java.util.Scanner;

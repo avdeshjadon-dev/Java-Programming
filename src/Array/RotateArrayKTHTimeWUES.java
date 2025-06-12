@@ -1,3 +1,25 @@
+// ------------------- 🔄 Rotate Array K Times with Encapsulation 🔒 -------------------
+//
+// 💡 Write a Java program that rotates an array to the right by **K** positions.
+// Use **encapsulation** by creating two classes:
+// - `CreateArray`: for taking input and storing the array and rotation number
+// - `ArrayRotator`: for rotating the array using reversal logic
+//
+// 🧠 You will:
+// - Use getters to access array and K
+// - Rotate the array efficiently using three-step reversal
+// - Display the final rotated array
+//
+// ------------------- 🧾 SAMPLE INPUT -------------------
+// Enter the size of the array: 6
+// Enter all the elements of the array: 1 2 3 4 5 6
+// Array is: [1, 2, 3, 4, 5, 6]
+// Enter the rotate number (k): 2
+//
+// ------------------- 📤 SAMPLE OUTPUT -------------------
+// Rotated array: [5, 6, 1, 2, 3, 4]
+
+
 package Array;
 
 import java.util.Arrays;

@@ -1,3 +1,30 @@
+// ------------------- 🔄 Rotate Array K Times 🔄 -------------------
+//
+// 💡 Write a Java program that rotates an array to the right by **K** positions.
+// Rotation means that each element is shifted right, and the last element moves to the first position.
+// Handle both positive and negative values of K appropriately.
+//
+// 🧠 You will:
+// - Input the array from the user
+// - Ask for a rotation number
+// - Output the rotated array
+//
+// ------------------- 🧾 SAMPLE INPUT -------------------
+// Enter the size of Array: 6
+// Enter the 1 element of the array: 10
+// Enter the 2 element of the array: 20
+// Enter the 3 element of the array: 30
+// Enter the 4 element of the array: 40
+// Enter the 5 element of the array: 50
+// Enter the 6 element of the array: 60
+//
+// Original Array is: 10 20 30 40 50 60
+// Enter the rotation number: 2
+//
+// ------------------- 📤 SAMPLE OUTPUT -------------------
+// Rotated Array is: 50 60 10 20 30 40
+
+
 package Array;
 
 import java.util.Scanner;

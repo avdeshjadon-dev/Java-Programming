@@ -1,3 +1,18 @@
+// ------------------- 🔹 Pivot Index 🔹 -------------------
+//
+// 💡 Write a Java program that takes an integer array as input from the user,
+// and finds the pivot index of the array. A pivot index is an index where
+// the sum of the numbers to the left is equal to the sum of the numbers to the right.
+//
+// ------------------- 🧾 SAMPLE INPUT -------------------
+// Enter the size of the array: 6
+// Enter all the 6 elements of the array: 1 7 3 6 5 6
+//
+// ------------------- 📤 SAMPLE OUTPUT -------------------
+// Original Array is: 1 7 3 6 5 6
+// Pivot Index is: 3
+
+
 package Array;
 
 import java.util.Scanner;
