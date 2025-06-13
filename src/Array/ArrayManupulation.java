@@ -24,7 +24,6 @@ import java.util.Scanner;
 
 public class ArrayManupulation {
     static int UniqueElement(int[] arr) {
-        boolean found = false;
         int index = -1;
         for (int i = 0; i < arr.length; i++) {
             boolean isUnique = true;

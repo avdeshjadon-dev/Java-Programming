@@ -5,7 +5,6 @@
 // 🙌 Believe in yourself — you've got this! 💪
 // ==========================================================
 
-
 package Array;
 
 import com.sun.tools.javac.Main;
@@ -14,8 +13,92 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class QuestionPractice {
+    public static void printArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+
+    public static void sortZeroesAndOne(int[] arr) {
+        int count = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) {
+                count++;
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if (i < count) {
+                arr[i] = 0;
+            } else {
+                arr[i] = 1;
+            }
+        }
+    }
+
+    public static int[] createArray() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the size of Array : ");
+        int num = sc.nextInt();
+        int[] arr = new int[num];
+        System.out.println();
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("Enter the " + (i + 1) + " element of the array : ");
+            arr[i] = sc.nextInt();
+        }
+        System.out.println();
+        System.out.print("Original Array is : ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        return arr;
+    }
+
+    public static int pivotElement(int[] arr) {
+        int totalSum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            totalSum += arr[i];
+        }
+        int leftSum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            int rightSum = totalSum - arr[i] - leftSum;
+            if (leftSum == rightSum) {
+                return i;
+            }
+            leftSum += arr[i];
+
+        }
+        return -1;
+    }
+
+    public static int uniqueIndex(int[] arr) {
+        int index = -1;
+        for (int i = 0; i < arr.length; i++) {
+            boolean isUnique = true;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] == arr[j] && i!=j) {
+                    isUnique = false;
+                    break;
+                }
+
+            }
+            if(isUnique){
+                return arr[i];
+            }
+        }
+        return index;
+    }
+
     public static void main(String[] args) {
-//        int[] arr = {13, 54, 36, 8, 34, 9, 49, 8, 644, 564, 67, 334, 87};
+//        int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1};
+        int[] arr = createArray();
+        int result=uniqueIndex(arr);
+        System.out.println();
+        System.out.println(result);
+//        System.out.println("Pivot Index is : " + pivotElement(arr));
+
+//        System.out.println(Arrays.sort(arr));
+//        Arrays.sort(arr);
+//        System.out.println(Arrays.toString(arr));
 //        for(int i=1;i<=arr.length;i++){
 //            System.out.println(arr[i]);
 //        }
