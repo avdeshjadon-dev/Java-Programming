@@ -1,20 +1,29 @@
-// ------------------- 8. Static Members in Different Contexts -------------------
+// ------------------- 🔹Static Members with Bank Account -------------------
 //
-// Write a Java program to create a class called "BankAccount" with instance variables
-// 'accountNumber' and balance, and static variables 'bankName' and 'interestRate'.
-// Provide static methods to get and set the static variables. Create several 'BankAccount'
-// objects and print their details along with the static variables.
+// 💡 Write a Java program to demonstrate use of static members in a class.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Bank Name: ABC Bank
-// Interest Rate: 5.0
-// Account Number: 101
-// Balance: 5000.0
+// Create a class `BankAccount` with the following:
+// - Instance variables: `accountNumber`, `balance`
+// - Static variables: `bankName`, `interestRate`
+// - Static methods: `setBankName(String name)`, `setInterestRate(double rate)`
+// - Instance method: `printDetails()` to print all account info including static values
 //
-// Bank Name: ABC Bank
-// Interest Rate: 5.0
-// Account Number: 102
-// Balance: 3000.0
+// In the main method:
+// - Set bank name and interest rate using static methods
+// - Create two bank accounts with different data
+// - Print their details
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Account Number: 123456789
+// Balance: 1000.0
+// Bank Name: National Bank
+// Interest Rate: 3.5%
+//
+// Account Number: 987654321
+// Balance: 2000.0
+// Bank Name: National Bank
+// Interest Rate: 3.5%
+
 
 
 package JavaStaticMembers;

@@ -1,27 +1,25 @@
-// ------------------- 3. Constructor Overloading -------------------
+// ------------------- 🔹 Constructor Overloading - Book Class 🔹 -------------------
 //
-// Write a Java program to create a class called "Book" with instance variables
-// title, author, and price. Implement:
-//   - A default constructor
-//   - A parameterized constructor taking title and author
-//   - A parameterized constructor taking title, author, and price
-// Print the values of the variables for each constructor.
+// 💡 Write a Java program to demonstrate **constructor overloading** in a class.
+// The program defines a `Book` class with three fields: `title`, `author`, and `price`.
+// It includes three constructors:
+//    1. Default constructor (no arguments)
+//    2. Constructor with `title` and `author`
+//    3. Constructor with `title`, `author`, and `price`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Default Constructor:
-// Title: Unknown
-// Author: Unknown
-// Price: 0.0
+// 🧠 The program creates objects using each constructor and prints the field values.
 //
-// Parameterized Constructor (title, author):
-// Title: Java Programming
-// Author: John Doe
-// Price: 0.0
-//
-// Parameterized Constructor (title, author, price):
-// Title: Java Programming
-// Author: John Doe
-// Price: 500.0
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// null
+// null
+// 0.0
+// Lady Gaga
+// Munsi Premchand
+// 0.0
+// Janeman
+// Avdesh
+// 10000.0
+
 
 
 package JavaConstructor;

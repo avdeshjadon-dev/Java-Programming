@@ -1,19 +1,15 @@
-// ------------------- 5. Rectangle Class with Copy Constructor -------------------
+// ------------------- 🔹 Parameterized Constructor - Rectangle Class 🔹 -------------------
 //
-// Create a class called "Rectangle" with instance variables length and width.
-// Implement:
-//   - A parameterized constructor
-//   - A copy constructor that initializes using an existing object
-// Print the values of the variables.
+// 💡 Write a Java program that uses a **parameterized constructor** to initialize the dimensions of a rectangle.
+// The class `Rectangle` has two private fields: `length` and `width`.
+// The constructor takes both values as parameters and stores them in the fields.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Parameterized Constructor:
-// Length: 10
-// Width: 5
+// 🧠 The program then creates a `Rectangle` object with specific values and prints the length and width.
 //
-// Copy Constructor:
-// Length: 10
-// Width: 5
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Length : 5
+// Width : 6
+
 
 
 package JavaConstructor;

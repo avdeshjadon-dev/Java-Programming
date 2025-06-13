@@ -1,14 +1,18 @@
-// ------------------- 7. Method Overriding and New Method -------------------
+// ------------------- 🔹 7. Method Overriding and New Method 🔹 -------------------
 //
-// Write a Java program to create a class known as Person with methods called
-// getFirstName() and getLastName(). Create a subclass called Employee that adds
-// a new method named getEmployeeId() and overrides the getLastName() method to
-// include the employee's job title.
+// 💡 Write a Java program to create a class called `Person` with methods:
+//     - `getFirstName()`
+//     - `getLastName()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then create a subclass called `Employee1` that:
+//   ✅ Overrides the `getLastName()` method to include the job title
+//   ✅ Adds a new method called `getEmployeeId()`
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // First Name: Amrita
 // Last Name: Ghatoye - Software Engineer
 // Employee ID: E12345
+
 
 package JavaInheritance;
 
@@ -57,6 +61,5 @@ public class JavaInheritance7 {
         System.out.println("First Name: " + emp.getFirstName());
         System.out.println("Last Name: " + emp.getLastName());
         System.out.println("Employee ID: " + emp.getEmployeeId());
-
     }
 }

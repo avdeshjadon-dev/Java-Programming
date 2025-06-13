@@ -1,12 +1,14 @@
-// ------------------- 1. Static Variables -------------------
+// ------------------- 🔹Static Variable Example -------------------
 //
-// Write a Java program to create a class called "Counter"
-// with a static variable count. Implement a constructor
-// that increments count every time an object is created.
-// Print the value of count after creating several objects.
+// 💡 Write a Java program to demonstrate the use of a **static variable**.
+// Create a class `Counter` with a static field `count`. Increment this field in the constructor
+// each time an object is created. Add a static method `getCount()` to return the value of `count`.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Total objects created: 5
+// In the `main` method, create multiple instances of `Counter` and print the total count.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Count : 3
+
 
 package JavaStaticMembers;
 

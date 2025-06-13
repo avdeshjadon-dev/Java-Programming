@@ -1,10 +1,14 @@
-// ------------------- 10. Abstract Class Shape2D -------------------
+// ------------------- 🔹 10. Abstract Class - Shape2D 🔹 -------------------
 //
-// Write a Java program to create an abstract class Shape2D with abstract methods
-// draw() and resize(). Create subclasses Rectangle and Circle that extend the
-// Shape2D class and implement the respective methods to draw and resize each shape.
+// 💡 Write a Java program to create an abstract class `Shape2D` with two abstract methods:
+//     - `draw()`
+//     - `resize()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then create two subclasses that extend `Shape2D`:
+//   ➤ `Rectangle` - prints: Rectangle drawn and resized
+//   ➤ `Circle1`    - prints: Circle drawn and resized
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Rectangle drawn and resized
 // Circle drawn and resized
 

@@ -1,37 +1,39 @@
-// ------------------- 8. Abstract Class Person -------------------
+// ------------------- 🔹 8. Abstract Class - Person 🔹 -------------------
 //
-// Write a Java program to create an abstract class Person with abstract methods
-// eat() and exercise(). Create subclasses Athlete and LazyPerson that extend the
-// Person class and implement the respective methods to describe how each person
-// eats and exercises.
+// 💡 Write a Java program to create an abstract class `Person` with two abstract methods:
+//     - `eat()`
+//     - `exercise()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then create two subclasses that extend `Person`:
+//   ➤ `Athlete`     - eats healthy and exercises daily
+//   ➤ `LazyPerson`  - eats junk food and rarely exercises
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Athlete eats healthy and exercises daily
 // LazyPerson eats junk food and rarely exercises
-
 
 package JavaAbstractClasses;
 
 abstract class Person {
     public void display() {
         eat();
-        sleep();
+        exercise();
     }
 
     public abstract void eat();
 
-    public abstract void sleep();
+    public abstract void exercise();
 }
 
-class Athelete extends Person {
+class Athlete extends Person {
     @Override
     public void eat() {
         System.out.print("Athlete eats healthy and ");
     }
 
     @Override
-    public void sleep() {
-        System.out.println("exercise daily");
+    public void exercise() {
+        System.out.println("exercises daily");
     }
 }
 
@@ -42,16 +44,17 @@ class LazyPerson extends Person {
     }
 
     @Override
-    public void sleep() {
+    public void exercise() {
         System.out.println("rarely exercises");
     }
 }
 
 public class JavaAbstractClasses8 {
     public static void main(String[] args) {
-        Person athelete = new Athelete();
-        Person lazyperson = new LazyPerson();
-        athelete.display();
-        lazyperson.display();
+        Person athlete = new Athlete();
+        Person lazyPerson = new LazyPerson();
+
+        athlete.display();
+        lazyPerson.display();
     }
 }

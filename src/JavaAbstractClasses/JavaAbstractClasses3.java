@@ -1,11 +1,14 @@
-// ------------------- 3. Abstract Class BankAccount -------------------
+// ------------------- 🔹 3. Abstract Class - BankAccount 🔹 -------------------
 //
-// Write a Java program to create an abstract class BankAccount with abstract
-// methods deposit() and withdraw(). Create subclasses: SavingsAccount and
-// CurrentAccount that extend the BankAccount class and implement the respective
-// methods to handle deposits and withdrawals for each account type.
+// 💡 Write a Java program to create an abstract class `BankAccount` with abstract methods:
+//     - `deposit()`
+//     - `withdraw()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then, create two subclasses:
+//   ➤ `SavingsAccount` - handles deposit & withdrawal
+//   ➤ `CurrentAccount` - handles deposit & withdrawal
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Savings Account:
 // Deposited: 1000.0
 // Withdrawn: 500.0
@@ -13,6 +16,7 @@
 // Current Account:
 // Deposited: 2000.0
 // Withdrawn: 1500.0
+
 
 package JavaAbstractClasses;
 
@@ -31,6 +35,7 @@ abstract class BankAccount {
     }
 
     public abstract void deposit();
+
     public abstract void withdraw();
 }
 

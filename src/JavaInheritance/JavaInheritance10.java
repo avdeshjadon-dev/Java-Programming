@@ -1,25 +1,38 @@
-// ------------------- 10. Employee Class Hierarchy -------------------
+// ------------------- 🔹 10. Employee Class Hierarchy 🔹 -------------------
 //
-// Write a Java program that creates a class hierarchy for employees of a company.
-// The base class should be Employee, with subclasses Manager, Developer, and Programmer.
-// Each subclass should have properties such as name, address, salary, and job title.
-// Implement methods for calculating bonuses, generating performance reports, and managing projects.
+// 💡 Write a Java program to create a class hierarchy for employees of a company.
+// The base class should be `Employee`, with subclasses:
+//     - `Manager`
+//     - `Developer`
+//     - `Programmer`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Manager: Name - Amrita, Address - 123 Main St, Salary - 90000, Job Title - Project Manager
-// Bonus: 9000
-// Generating performance report...
-// Managing projects...
+// Each subclass should have:
+//     ✅ name
+//     ✅ address
+//     ✅ salary
+//     ✅ job title
 //
-// Developer: Name - Amrita, Address - 456 Oak St, Salary - 80000, Job Title - Software Developer
-// Bonus: 8000
-// Generating performance report...
-// Managing projects...
+// Implement methods to:
+//     🔸 Calculate bonus (10% of salary)
+//     🔸 Generate performance report
+//     🔸 Manage projects
 //
-// Programmer: Name - Amrita, Address - 789 Pine St, Salary - 70000, Job Title - Programmer
-// Bonus: 7000
-// Generating performance report...
-// Managing projects...
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Manager: Name- Amrita, Address- Shiv coloney, Radaur, Salary- 87000.0, Job Title- Manager
+// Bonus: 8700.0
+// Generating the performance report -----
+// Managing Project -----
+
+// Developer: Name- Avdesh, Address- Jatpura Agra, Salary- 736477.32, Job Title- Developer
+// Bonus: 73647.732
+// Generating the performance report -----
+// Managing Project -----
+
+// Programmer: Name- Sachin, Address- Garreb gali rohtak, Salary- 646443.33, Job Title- programmer
+// Bonus: 64644.333
+// Generating the performance report -----
+// Managing Project -----
+
 
 
 package JavaInheritance;
@@ -40,7 +53,7 @@ class Employee2 {
     public void display() {
         System.out.println(getClass().getSimpleName() + ": Name- " + getName() + ", Address- " + getAddress() + ", Salary- " + getSalary() + ", Job Title- " + getJob_title());
         System.out.println("Bonus: " + bonus());
-        genratepr();
+        genratePerformanceReport();
         System.out.println();
         manageproject();
         System.out.println();
@@ -51,7 +64,7 @@ class Employee2 {
         return salary * 0.10;
     }
 
-    public void genratepr() {
+    public void genratePerformanceReport() {
         System.out.printf("Generating the performance report -----");
     }
 
@@ -74,8 +87,6 @@ class Employee2 {
     public String getJob_title() {
         return job_title;
     }
-
-
 }
 
 class Manager extends Employee2 {

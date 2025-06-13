@@ -1,12 +1,14 @@
-// ------------------- 4. Static Final Variables -------------------
+// ------------------- 🔹Static Final Variable -------------------
 //
-// Write a Java program to create a class called "Constants" with a static final
-// variable 'PI' initialized to 3.14159. Create a method to calculate the area
-// of a circle given its radius, using the 'PI' constant. Demonstrate the method
-// in the main method.
+// 💡 Write a Java program that demonstrates the use of a **static final variable** (constant) in a utility class.
+// Create a class `Constants` with a static final variable `PI`. Also define a static method `calculateArea(double radius)`
+// that returns the area of a circle using the constant `PI`.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Area of the circle: 78.53975
+// In the main method, prompt the user to enter a radius and display the computed area.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Enter the Radius : 5
+// Area : 78.53975
 
 
 package JavaStaticMembers;

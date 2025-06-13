@@ -1,15 +1,18 @@
-// ------------------- 2. Abstract Class Shape -------------------
+// ------------------- 🔹 2. Abstract Class - Shape 🔹 -------------------
 //
-// Write a Java program to create an abstract class Shape with abstract methods
-// calculateArea() and calculatePerimeter(). Create subclasses Circle and Triangle
-// that extend the Shape class and implement the respective methods to calculate
-// the area and perimeter of each shape.
+// 💡 Write a Java program to create an abstract class `Shape` with abstract methods:
+//     - `calculateArea()`
+//     - `calculatePerimeter()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Circle Area: 78.54
-// Circle Perimeter: 31.42
-// Triangle Area: 10.83
-// Triangle Perimeter: 18.00
+// Then, create two subclasses:
+//   ➤ `Circle` - to compute area and perimeter of a circle
+//   ➤ `Triangle` - to compute area (using Heron’s formula) and perimeter of a triangle
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Area of Circle is : 314.00
+// Perimeter of Circle is : 62.80
+// Area of Triangle is : 43.30
+// Perimeter of Triangle is : 30.00
 
 
 package JavaAbstractClasses;
@@ -80,6 +83,6 @@ public class JavaAbstractClasses2 {
         Shape triangle = new Triangle(10, 10, 10);
         circle.display();
         triangle.display();
-       
+
     }
 }

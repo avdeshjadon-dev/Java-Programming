@@ -1,11 +1,23 @@
-// ------------------- 9. Vehicle Class Hierarchy -------------------
+// ------------------- 🔹 9. Vehicle Class Hierarchy 🔹 -------------------
 //
-// Write a Java program to create a vehicle class hierarchy. The base class should be
-// Vehicle, with subclasses Truck, Car, and Motorcycle. Each subclass should have
-// properties such as make, model, year, and fuel type. Implement methods for
-// calculating fuel efficiency, distance traveled, and maximum speed.
+// 💡 Write a Java program to create a vehicle class hierarchy.
+// The base class should be `Vehicle`, with subclasses:
+//     - `Truck`
+//     - `Car`
+//     - `Motorcycle`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Each subclass should include properties like:
+//     ✅ make
+//     ✅ model
+//     ✅ year
+//     ✅ fuel type
+//
+// Implement methods in each subclass to calculate:
+//     🔸 Fuel efficiency
+//     🔸 Distance traveled
+//     🔸 Maximum speed
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Truck: Make - Ford, Model - F-150, Year - 2020, Fuel Type - Diesel
 // Fuel Efficiency: 15 mpg
 // Distance Traveled: 300 miles
@@ -145,17 +157,11 @@ public class JavaInheritance9 {
         Car car = new Car("Toyota", "Camery", 2019, "Petrol");
         MotorCycle motorCycle = new MotorCycle("Royal Enfied", "Bullet", 2025, "Petrol");
         System.out.println();
-        System.out.println("==================================================================");
         truck.displayInfo();
-        System.out.println("==================================================================");
         truck.showStats();
-        System.out.println("===================================================================");
         car.displayInfo();
-        System.out.println("===================================================================");
         car.showStats();
-        System.out.println("================================================================================");
         motorCycle.displayInfo();
-        System.out.println("================================================================================");
         motorCycle.showStats();
     }
 }

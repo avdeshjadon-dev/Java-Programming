@@ -1,12 +1,15 @@
-// ------------------- 2. Parameterized Constructor -------------------
+// ------------------- 🔹 Parameterized Constructor - Dog Class 🔹 -------------------
 //
-// Write a Java program to create a class called "Dog" with instance variables
-// name and color. Implement a parameterized constructor that takes name and color
-// as parameters and initializes the instance variables. Print the values of the variables.
+// 💡 Write a Java program to demonstrate the use of a **parameterized constructor**.
+// The program defines a `Dog` class with two private fields: `name` and `colour`.
+// The constructor takes two parameters to initialize these fields.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Name: Max
-// Color: Brown
+// 🧠 The program creates a `Dog` object with specific values and displays them using getter methods.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Dog Name: Sheru
+// Dog Colour: Kala
+
 
 package JavaConstructor;
 

@@ -1,11 +1,14 @@
-// ------------------- 6. Method Overriding -------------------
+// ------------------- 🔹 6. Method Overriding 🔹 -------------------
 //
-// Write a Java program to create a class called Animal with a method named
-// move(). Create a subclass called Cheetah that overrides the move() method
-// to run.
+// 💡 Write a Java program to create a class called `Animal1` with a method:
+//     - `move()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// The cheetah runs swiftly
+// Then create a subclass called `Cheetah` that:
+//   ✅ Overrides the `move()` method to describe how a cheetah moves
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// I am Running
+
 
 package JavaInheritance;
 class Animal1{

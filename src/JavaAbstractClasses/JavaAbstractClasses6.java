@@ -1,80 +1,80 @@
-// ------------------- 6. Abstract Class Shape3D -------------------
+// ------------------- 🔹 6. Abstract Class - Shape3D 🔹 -------------------
 //
-// Write a Java program to create an abstract class Shape3D with abstract methods
-// calculateVolume() and calculateSurfaceArea(). Create subclasses Sphere and Cube
-// that extend the Shape3D class and implement the respective methods to calculate
-// the volume and surface area of each shape.
+// 💡 Write a Java program to create an abstract class `Shape3D` with two abstract methods:
+//     - `calculateVolume()`
+//     - `calculateSurfaceArea()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Sphere Volume: 523.6
-// Sphere Surface Area: 314.16
-// Cube Volume: 1000.0
-// Cube Surface Area: 600.0
-
+// Then create two subclasses that extend `Shape3D`:
+//   ➤ `Sphere` - use radius to calculate volume and surface area
+//   ➤ `Cube`   - use side length to calculate volume and surface area
+//
+// 📐 Use π ≈ 3.14
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Sphere Volume: 7234.56
+// Sphere Surface Area: 1808.64
+// Cube Volume: 343.0
+// Cube Surface Area: 294.0
 
 package JavaAbstractClasses;
 
 abstract class Shape3D {
     final double PI = 3.14;
-    double rad;
-    double side_len;
 
-    Shape3D(double rad, double side_len) {
-        this.rad = rad;
-        this.side_len = side_len;
-    }
+    public abstract void calculateVolume();
+    public abstract void calculateSurfaceArea();
 
     public void display() {
         calculateVolume();
         calculateSurfaceArea();
     }
-
-    public abstract void calculateVolume();
-
-    public abstract void calculateSurfaceArea();
 }
 
 class Sphere extends Shape3D {
-    Sphere(double rad, double side_len) {
-        super(rad, side_len);
-    }
+    private double radius;
 
-    double area = 4 * PI * rad * rad;
-
-    @Override
-    public void calculateSurfaceArea() {
-        System.out.println("Area of Sphere : " + area);
+    Sphere(double radius) {
+        this.radius = radius;
     }
 
     @Override
     public void calculateVolume() {
-        double volume = 4 / 3 * PI * rad * rad * rad;
-        System.out.println("Volume of Sphere : " + volume);
+        double volume = (4.0 / 3.0) * PI * radius * radius * radius;
+        System.out.println("Sphere Volume: " + String.format("%.2f", volume));
+    }
+
+    @Override
+    public void calculateSurfaceArea() {
+        double surfaceArea = 4 * PI * radius * radius;
+        System.out.println("Sphere Surface Area: " + String.format("%.2f", surfaceArea));
     }
 }
 
 class Cube extends Shape3D {
-    Cube(double rad, double side_len) {
-        super(rad, side_len);
-    }
+    private double side;
 
-    @Override
-    public void calculateSurfaceArea() {
-        double area = 6 * side_len * side_len;
-        System.out.println("Area of Cube : " + area);
+    Cube(double side) {
+        this.side = side;
     }
 
     @Override
     public void calculateVolume() {
-        double volume = side_len * side_len * side_len;
-        System.out.println("Volume of Cube : " + volume);
+        double volume = side * side * side;
+        System.out.println("Cube Volume: " + String.format("%.2f", volume));
+    }
+
+    @Override
+    public void calculateSurfaceArea() {
+        double surfaceArea = 6 * side * side;
+        System.out.println("Cube Surface Area: " + String.format("%.2f", surfaceArea));
     }
 }
 
 public class JavaAbstractClasses6 {
     public static void main(String[] args) {
-        Shape3D sphere = new Sphere(12, 10);
-        Shape3D cube = new Cube(3, 7);
+        Shape3D sphere = new Sphere(12);
+        Shape3D cube = new Cube(7);
+
         sphere.display();
         cube.display();
     }

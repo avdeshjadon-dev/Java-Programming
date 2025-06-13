@@ -1,14 +1,15 @@
-// ------------------- 8. Playable Interface with Multiple Implementations -------------------
+// ------------------- 🔹Playable Interface -------------------
 //
-// Write a Java program to create an interface Playable with a method play() that
-// takes no arguments and returns void. Create three classes Football, Volleyball,
-// and Basketball that implement the Playable interface and override the play()
-// method to play the respective sports.
+// 💡 Write a Java program to create an interface called `Playable` with a method:
+//     - `play()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then implement this interface in three classes: `Football`, `Volleyball`, and `Basketball`.
+// Each class should override the `play()` method to display a sport-specific message.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Playing Football
-// Playing Volleyball
-// Playing Basketball
+// Playing Football
+// Playing Football
 
 
 package JavaInterface;

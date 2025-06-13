@@ -1,14 +1,17 @@
-// ------------------- 9. Constructor with Array Initialization -------------------
+// ------------------- 🔹 Constructor with Array Parameter - Classroom Class 🔹 -------------------
 //
-// Create a class called "Classroom" with instance variables:
-//   - className (String)
-//   - students (String array)
-// Implement a parameterized constructor to initialize these variables.
-// Print the values of the variables.
+// 💡 Write a Java program to demonstrate using **array parameters in a constructor**.
+// The `Classroom` class includes:
+//   - A `className` field
+//   - A `students` array to store student names
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Class Name: Java 101
-// Students: [Alice, Bob, Charlie]
+// 🧠 The constructor takes both values and stores them.
+// A method `display()` prints the classroom name and all student names in one line.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// ClassRoom : Alpha Class
+// Students : Avdesh Aman Suman
+
 
 
 package OOPS;
@@ -44,7 +47,7 @@ public class Constructor9 {
 
     public static void main(String[] args) {
         String[] studentArray = {"Avdesh", "Aman", "Suman"};
-        Classroom classRoom = new Classroom("pappupasshogaya 420", studentArray);
+        Classroom classRoom = new Classroom("Alpha Class", studentArray);
         classRoom.display();
     }
 }

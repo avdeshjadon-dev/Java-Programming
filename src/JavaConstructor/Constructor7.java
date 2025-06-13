@@ -1,21 +1,21 @@
-// ------------------- 7. Constructor with Default Values -------------------
+// ------------------- 🔹 Constructor with Default Fallbacks - Car Class 🔹 -------------------
 //
-// Create a class called "Car" with instance variables make, model, and year.
-// Implement a parameterized constructor that:
-//   - Initializes these variables
-//   - Assigns default values if not provided
-// Print the values of the variables.
+// 💡 Write a Java program to demonstrate **constructor input validation with default fallback values**.
+// The `Car` class has three fields: `make`, `model`, and `year`.
+// - If `make` or `model` is `null` or empty, default values are assigned.
+// - If `year` is negative, it's defaulted to `2000`.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Car 1 (with values):
-// Make: Toyota
-// Model: Corolla
-// Year: 2020
+// 🧠 The program creates two `Car` objects:
+//    1. With invalid input (to test fallback logic)
+//    2. With valid input (to verify correct assignment)
 //
-// Car 2 (with default values):
-// Make: Unknown
-// Model: Unknown
-// Year: 2022
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Make : Unknown Make
+// Model : Unkonown Model
+// Year : 2000
+// Make : Toyota
+// Model : Corolla
+// Year : 2022
 
 
 package JavaConstructor;

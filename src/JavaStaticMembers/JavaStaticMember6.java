@@ -1,13 +1,16 @@
-// ------------------- 6. Static Method with Static Variable -------------------
+// ------------------- 🔹Static Method for ID Generation -------------------
 //
-//  Write a Java program to create a class called "IDGenerator" with a static variable
-// 'nextID' and a static method "generateID()" that returns the next ID and increments
-// 'nextID'. Demonstrate the usage of generateID in the main method.
+// 💡 Write a Java program to demonstrate a static method used for generating unique IDs.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Generated ID: 1
-// Generated ID: 2
-// Generated ID: 3
+// Create a class `IDGenerator` with a static field `nextID`, initially set to 1.
+// Implement a static method `generateID()` that returns the current value of `nextID` and then increments it.
+//
+// In the main method, call the `generateID()` method multiple times to simulate unique ID generation.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// GenerateID : 1
+// GenerateID : 2
+// GenerateID : 3
 
 
 package JavaStaticMembers;

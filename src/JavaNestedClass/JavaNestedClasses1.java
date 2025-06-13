@@ -1,14 +1,15 @@
-// ------------------- 1. Inner Class -------------------
+// ------------------- 🔹 Member Inner Class 🔹 -------------------
 //
-// Write a Java program to create an outer class called "Computer"
-// with an inner class "Processor". The Processor class should have a
-// method "displayDetails()" that prints the details of the processor
-// (e.g., brand and speed). Create an instance of Processor from the
-// Computer class and call the "displayDetails()" method.
+// 💡 Write a Java program to demonstrate a **member inner class**.
+// Create an outer class `Computer` with an inner class `Processor`. The inner class should have a method:
+//     - `displayDetails()` to print processor information.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Processor Brand: Intel
-// Processor Speed: 3.6 GHz
+// The outer class should include a method `processorDetails()` which creates an instance of the inner class
+// and calls the `displayDetails()` method.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Processor Brand : intel
+// Processor Speed : 3.6 GHz
 
 
 package JavaNestedClass;
@@ -25,7 +26,6 @@ class Computer {
         Processor processor = new Processor();
         processor.displayDetails();
     }
-
 }
 
 public class JavaNestedClasses1 {

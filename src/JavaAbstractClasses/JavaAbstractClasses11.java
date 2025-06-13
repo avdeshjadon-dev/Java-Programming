@@ -1,11 +1,14 @@
-// ------------------- 11. Abstract Class Bird -------------------
+// ------------------- 🔹 11. Abstract Class - Bird 🔹 -------------------
 //
-// Write a Java program to create an abstract class Bird with abstract methods
-// fly() and makeSound(). Create subclasses Eagle and Hawk that extend the Bird
-// class and implement the respective methods to describe how each bird flies
-// and makes a sound.
+// 💡 Write a Java program to create an abstract class `Bird` with two abstract methods:
+//     - `fly()`
+//     - `makeSound()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then create two subclasses that extend `Bird`:
+//   ➤ `Eagle` - soars high and screeches
+//   ➤ `Hawk`  - glides swiftly and chirps
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Eagle soars high and screeches
 // Hawk glides swiftly and chirps
 

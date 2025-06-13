@@ -1,15 +1,17 @@
-// ------------------- 2. Static Nested Class -------------------
+// ------------------- 🔹 Static Nested Class 🔹 -------------------
 //
-// Write a Java program to create an outer class called "University"
-// with a static nested class "Department". The Department class should have a
-// method "displayInfo()" that prints the department name and the number of
-// faculty members. Instantiate the Department class from the main method and
-// call the "displayInfo()" method.
+// 💡 Write a Java program to demonstrate a **static nested class**.
+// Create a class `University` with a static nested class `Department` that has a static method:
+//     - `displayInfo(String name, int num)` to print department name and number of faculty.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Department Name: Computer Science
-// Number of Faculty Members: 25
+// In the `main` method, take user input for department name and number of faculty,
+// and use the static nested class method to display the information.
 //
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Enter the department name : Computer Science
+// Enter the number of faculty : 15
+// Department Name : Computer Science
+// Number of faculty members : 15
 
 package JavaNestedClass;
 

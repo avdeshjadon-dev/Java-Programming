@@ -1,14 +1,28 @@
-// ------------------- 5. Method Overriding with Condition -------------------
+// ------------------- 🔹 5. Method Overriding with Condition 🔹 -------------------
 //
-// Write a Java program to create a class known as "BankAccount" with methods
-// called deposit() and withdraw(). Create a subclass called SavingsAccount that
-// overrides the withdraw() method to prevent withdrawals if the account balance
-// falls below one hundred.
+// 💡 Write a Java program to create a class called `BankAccount` with methods:
+//     - `deposit()`
+//     - `withdrawl()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Deposit successful. Balance: 500
-// Withdrawal successful. Balance: 300
-// Withdrawal denied. Minimum balance of 100 must be maintained.
+// Then create a subclass called `SavingAccount` that:
+//   ✅ Overrides the `withdrawl()` method
+//   ✅ Prevents withdrawals if balance falls below ₹100
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Create a Bank Account object (A/c No. PNB1324) with initial balance of ₹23422.34:
+// Deposited amount : 10000
+// New balance after depositing ₹1000: ₹33422.34
+// Withdraw ₹600 from account PNB1324:
+// New balance after withdrawl ₹600: ₹27422.34
+//
+// Create a SavingsAccount object (A/c No. SA1234) with initial balance of ₹450:
+// Minimum balance of ₹100 required!
+// Balance after trying to withdraw ₹300: ₹450.0
+//
+// Create a SavingsAccount object (A/c No. SA1000) with initial balance of ₹300:
+// Try to withdraw ₹250 from SA1000!
+// Minimum balance of ₹100 required!
+
 
 
 package JavaInheritance;

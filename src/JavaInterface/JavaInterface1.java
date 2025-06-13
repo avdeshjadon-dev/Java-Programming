@@ -1,13 +1,21 @@
-// ------------------- 1. Interface Implementation -------------------
+// ------------------- 🔹Interface with Multiple Implementations 🔹 -------------------
 //
-// Write a Java program to create an interface Shape with the getArea() method.
-// Create three classes Rectangle, Circle, and Triangle that implement the Shape interface.
-// Implement the getArea() method for each of the three classes.
+// 💡 Write a Java program to create an interface called `Shape` with a method:
+//     - `getArea()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Area of Rectangle: 50.0
-// Area of Circle: 78.53981633974483
-// Area of Triangle: 30.0
+// Add a default method:
+//     - `display()` that prints the area of the shape
+//
+// Then create the following classes that implement the `Shape` interface:
+//     ✅ `Rectangle` with `length` and `breadth`
+//     ✅ `Circle` with `radius`
+//     ✅ `Triangle` with `base` and `height`
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Area of Rectangle : 200.0
+// Area of Circle : 78.5
+// Area of Triangle : 5.0
+
 
 
 package JavaInterface;

@@ -1,11 +1,16 @@
-// ------------------- 5. Static Block for Initialization -------------------
+// ------------------- 🔹Static Block with Object Initialization -------------------
 //
-// Write a Java program to create a class called "Configuration" with a static block
-// that initializes a static variable 'configValue' from a configuration file
-// (simulated with a default value). Print the value of 'configValue' in the main method.
+// 💡 Write a Java program to demonstrate how a **static block** can be used to perform
+// actions during class loading, such as initializing values or creating objects.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Config Value: 42
+// Create a class `Configuration` that has a `configValue` field. Inside a static block,
+// initialize this field through an object and print a message indicating the block has executed.
+//
+// In the main method, instantiate the class and print the `configValue`.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Static block executed: configValue initialized
+// Config Value : default config value
 
 
 package JavaStaticMembers;

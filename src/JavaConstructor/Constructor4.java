@@ -1,21 +1,21 @@
-// ------------------- 4. Chaining Constructors -------------------
+// ------------------- 🔹 Constructor Chaining - Student Class 🔹 -------------------
 //
-// Write a Java program to create a class called "Student" with instance variables
-// studentId, studentName, and grade. Implement:
-//   - A default constructor
-//   - A parameterized constructor taking all three variables
-// Use constructor chaining to initialize the variables. Print the values of the variables.
+// 💡 Write a Java program to demonstrate **constructor chaining** using `this()`.
+// The program defines a `Student` class with three fields: `studentId`, `studentName`, and `grade`.
+// The default constructor internally calls the parameterized constructor using `this(...)` to assign default values.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Default Constructor:
-// Student ID: 0
-// Student Name: Unknown
-// Grade: Not Assigned
+// 🧠 The program creates two student objects:
+//    1. Using the default constructor with constructor chaining
+//    2. Using the parameterized constructor with custom values
 //
-// Parameterized Constructor:
-// Student ID: 101
-// Student Name: Alice
-// Grade: A
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Student ID : 9
+// Student Name : Priya
+// Grade : O
+// Student ID : 12319278
+// Student Name : Avdesh Jadon
+// Grade : A
+
 
 package JavaConstructor;
 

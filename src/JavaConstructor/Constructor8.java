@@ -1,19 +1,17 @@
-// ------------------- 8. Overloading Constructors with Different Data Types -------------------
+// ------------------- 🔹 Constructor Overloading - Point Class 🔹 -------------------
 //
-// Create a class called "Point" with instance variables x and y.
-// Implement overloaded constructors:
-//   - One taking int parameters
-//   - One taking double parameters
-// Print the values for each constructor.
+// 💡 Write a Java program to demonstrate **constructor overloading** using different parameter types.
+// The `Point` class includes:
+//   - One constructor that accepts `int x` and `int y`
+//   - Another that accepts `double x` and `double y` and converts them to integers
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Integer Constructor:
-// x: 5
-// y: 10
+// 🧠 The program creates two points:
+//   1. One using integer coordinates
+//   2. One using decimal coordinates (which are typecasted to integers)
 //
-// Double Constructor:
-// x: 5.5
-// y: 10.5
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Point(X,Y) : (5, 7)
+// Point(X,Y) : (2, 3)
 
 
 package JavaConstructor;

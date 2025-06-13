@@ -1,13 +1,16 @@
-// ------------------- 9. Abstract Class Instrument -------------------
+// ------------------- 🔹 9. Abstract Class - Instrument 🔹 -------------------
 //
-// Write a Java program to create an abstract class Instrument with abstract methods
-// play() and tune(). Create subclasses Glockenspiel and Violin that extend the
-// Instrument class and implement the respective methods to play and tune each instrument.
+// 💡 Write a Java program to create an abstract class `Instrument` with two abstract methods:
+//     - `play()`
+//     - `tune()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then create two subclasses that extend `Instrument`:
+//   ➤ `Glockenspiel` - prints: Glockenspiel is being played and tuned
+//   ➤ `Violin`       - prints: Violin is being played and tuned
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Glockenspiel is being played and tuned
 // Violin is being played and tuned
-
 
 package JavaAbstractClasses;
 
@@ -19,14 +22,13 @@ abstract class Instrument {
     }
 
     public abstract void play();
-
     public abstract void tune();
 }
 
 class Glockenspiel extends Instrument {
     @Override
     public void play() {
-        System.out.print("Violin is being played and ");
+        System.out.print("Glockenspiel is being played and ");
     }
 
     @Override

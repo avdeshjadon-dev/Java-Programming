@@ -1,13 +1,15 @@
-// ------------------- 5. Resizable Interface Implementation -------------------
+// ------------------- 🔹Resizable Interface -------------------
 //
-// Write a Java program to create an interface Resizable with methods
-// resizeWidth(int width) and resizeHeight(int height) that allow an object
-// to be resized. Create a class Rectangle that implements the Resizable
-// interface and implements the resize methods.
+// 💡 Write a Java program to create an interface called `Resizable` with methods:
+//     - `resizeWidth(int width)`
+//     - `resizeHeight(int height)`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Original Width: 100, Original Height: 50
-// Resized Width: 150, Resized Height: 75
+// Then create a class `Rectangle1` that implements `Resizable` and updates its width
+// and height accordingly. Include a method to display the new dimensions.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Original Height: 100 Original Width: 200
+// Resized Height: 30 Resized Width: 20
 
 
 package JavaInterface;

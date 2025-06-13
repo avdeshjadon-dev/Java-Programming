@@ -1,10 +1,13 @@
-// ------------------- 3. Interface with Multiple Implementations -------------------
+// ------------------- 🔹Flyable Interface Implementation 🔹 -------------------
 //
-// Write a Java program to create an interface Flyable with a method called fly_obj().
-// Create three classes Spacecraft, Airplane, and Helicopter that implement the
-// Flyable interface. Implement the fly_obj() method for each of the three classes.
+// 💡 Write a Java program to create an interface called `Flyable` with:
+//     - An abstract method `fly_obj()`
+//     - A default method `dispaly()` that calls `fly_obj()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then create classes `SpaceCraft`, `Airplane`, and `Helicopter` that implement
+// the `Flyable` interface and override the `fly_obj()` method to describe how each flies.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Spacecraft is flying in space
 // Airplane is flying in the sky
 // Helicopter is hovering above ground

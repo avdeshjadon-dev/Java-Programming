@@ -1,12 +1,14 @@
-// ------------------- 7. Local Class Accessing Local Variables -------------------
+// ------------------- 🔹Local Inner Class -------------------
 //
-// Write a Java program to create a class called "House" with a method "calculateArea()".
-// Inside this method, define a local class "Room" with a method "getArea()" that calculates
-// and returns the area of the room (length * width). Instantiate the Room class and call
-// the "getArea()" method from within "calculateArea()".
+// 💡 Write a Java program to demonstrate a **local inner class** inside a method.
+// Create a class `House` with a method `calculateArea()`.
+// Inside this method, define a local inner class `Room` with a method `getArea()`
+// that returns the product of `length` and `breadth`.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Area of the room: 200 square units
+// Instantiate the local class inside the method and print the area.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Area : 240.31
 
 
 package JavaNestedClass;

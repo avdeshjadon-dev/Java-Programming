@@ -1,12 +1,15 @@
-// ------------------- 5. Inner Class Accessing Outer Class Members -------------------
+// ------------------- 🔹Member Inner Class (Accessing Outer Class Members) -------------------
 //
-// Write a Java program to create an outer class called "Library" with an instance
-// variable "libraryName". Create an inner class "Book" with a method "getLibraryName()"
-// that returns the name of the library. Instantiate the Book class and call the
-// "getLibraryName()" method.
+// 💡 Write a Java program to demonstrate a **member inner class** accessing members of the outer class.
+// Create a class `Library` with a private field `libraryName` and a constructor to initialize it.
+// Inside it, define a **member inner class** `Book` with a method `getLibraryName()`
+// that returns the name of the outer library.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Library Name: Central Library
+// In the `main` method, create an instance of the outer class and the inner class,
+// then call the method to print the library name.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Library Name : Central Library
 
 
 package JavaNestedClass;

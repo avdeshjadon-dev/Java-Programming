@@ -1,11 +1,14 @@
-// ------------------- 3. Local Class -------------------
+// ------------------- 🔹Local Inner Class -------------------
 //
-// Write a Java program to create a class called "Car" with a method "startEngine()".
-// Inside this method, define a local class "Engine" that has a method "run()".
-// The "run()" method should print "Engine is running". Instantiate and call
-// the "run()" method from within the "startEngine()" method.
+// 💡 Write a Java program to demonstrate a **local inner class**.
+// Create an outer class `Car` with a method `startEngine()`.
+// Inside this method, define a local class `Engine` that has a method:
+//     - `run()` to print "Engine is running".
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// The `startEngine()` method should create an instance of the local class
+// and call the `run()` method.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Engine is running
 
 

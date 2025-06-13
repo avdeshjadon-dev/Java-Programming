@@ -1,12 +1,14 @@
-// ------------------- 1. Default Constructor -------------------
+// ------------------- 🔹 Default Constructor - Cat Class 🔹 -------------------
 //
-// Write a Java program to create a class called "Cat" with instance variables
-// name and age. Implement a default constructor that initializes the name to
-// "Unknown" and the age to 0. Print the values of the variables.
+// 💡 Write a Java program that demonstrates the use of a **default constructor** in a class.
+// The program defines a `Cat` class with two private fields: `name` and `age`.
+// The default constructor initializes the name to `"Unknown"` and age to `0`.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Name: Unknown
-// Age: 0
+// 🧠 The program then creates a `Cat` object and prints its name and age using getter methods.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Cat Name : Unknown
+// Cat Age : 0
 
 
 package JavaConstructor;

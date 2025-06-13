@@ -1,13 +1,18 @@
-// ------------------- 7. Static Block for Complex Initialization -------------------
+// ------------------- 🔹Static Initialization with Logic -------------------
 //
-// Write a Java program to create a class called "ComplexInitializer" with a static block
-// that initializes multiple static variables (x, y, z) using complex logic. Print the
-// values of these variables in the main method.
+// 💡 Write a Java program to demonstrate static block initialization with logic.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// x: 10
-// y: 20
-// z: 30
+// Create a class `ComplexInitializer` with static variables `x`, `y`, and `z`.
+// Use a static block to initialize `x` and `y` with values, and compute `z` using a private static method `calculateZ(int a, int b)`.
+//
+// Provide static getter methods `getX()`, `getY()`, and `getZ()` to access the values.
+//
+// In the main method, print all the values to verify initialization.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Value of x: 10
+// Value of y: 20
+// Value of z: 210
 
 
 package JavaStaticMembers;

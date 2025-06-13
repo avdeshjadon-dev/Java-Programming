@@ -1,12 +1,13 @@
-// ------------------- 4. Anonymous Class -------------------
+// ------------------- 🔹Anonymous Inner Class -------------------
 //
-// Write a Java program to create an interface called "Greeting" with a method "sayHello()".
-// In the main method, create an anonymous class that implements the Greeting interface
-// and override the "sayHello()" method to print "Hello, World!".
-// Call the "sayHello()" method.
+// 💡 Write a Java program to demonstrate an **anonymous inner class**.
+// Create an interface `Greeting` with a method `sayHello()`.
+// In the `main` method, create an instance of `Greeting` using an **anonymous inner class**
+// that overrides the `sayHello()` method to print "Hello, World!".
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Hello, World!
+
 
 package JavaNestedClass;
 

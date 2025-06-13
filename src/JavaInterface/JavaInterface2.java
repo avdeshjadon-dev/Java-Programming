@@ -1,10 +1,12 @@
-// ------------------- 2. Interface and Implementation -------------------
+// ------------------- 🔹Interface and Implementation 🔹 -------------------
 //
-// Write a Java program to create an Animal interface with a method called bark()
-// that takes no arguments and returns void. Create a Dog class that implements
-// Animal and overrides bark() to print "Dog is barking".
+// 💡 Write a Java program to create an interface called `Animal` with a method:
+//     - `bark()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then create a class called `Dog` that implements the `Animal` interface and
+// overrides the `bark()` method to display a barking message.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Dog is barking
 
 

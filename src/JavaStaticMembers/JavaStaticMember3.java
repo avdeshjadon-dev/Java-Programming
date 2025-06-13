@@ -1,12 +1,14 @@
-// ------------------- 3. Static Block -------------------
+// ------------------- 🔹Static Block Initialization -------------------
 //
-// Write a Java program to create a class called "Initializer" with a static block
-// that initializes a static variable 'initialValue' to 1000. Print the value of
-// 'initialValue' before and after creating an instance of "Initializer".
+// 💡 Write a Java program to demonstrate the use of a **static block** for initializing static variables.
+// Create a class `Initializer` with a static variable `initialValue`, and use a static block to assign it a value.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Before creating instance: 1000
-// After creating instance: 1000
+// The program should print messages before and after accessing the class to show when the static block is executed.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Static block : initialValue initialized to : 1000
+// Before creating an instance : initialValue : 1000
+// After creating an instance : initialValue : 1000
 
 
 package JavaStaticMembers;

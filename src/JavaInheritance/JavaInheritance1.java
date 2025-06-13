@@ -1,32 +1,33 @@
-// ------------------- 1. Method Overriding -------------------
+// ------------------- 🔹 1. Method Overriding 🔹 -------------------
 //
-// Write a Java program to create a class called Animal with a method called
-// makeSound(). Create a subclass called Cat that overrides the makeSound()
-// method to bark.
+// 💡 Write a Java program to create a class called `Animal` with a method called:
+//     - `makeSound()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// The cat barks
+// Then create a subclass called `Cat` that overrides the `makeSound()` method
+// to print a cat-specific message.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Yaha par maine override kar diya hai:
 
 
 package JavaInheritance;
 
-class Animal{
-    void makeSound(){
+class Animal {
+    void makeSound() {
         System.out.println("There is a sound :");
     }
 }
-class SubClass extends Animal{
+
+class SubClass extends Animal {
     @Override
     void makeSound() {
         System.out.println("Yaha par maine override kar diya hai:");
     }
 }
+
 public class JavaInheritance1 {
     public static void main(String[] args) {
-//        Animal animal=new Animal();
-//        animal.makeSound();
-
-        SubClass subClass=new SubClass();
+        SubClass subClass = new SubClass();
         subClass.makeSound();
     }
 }

@@ -1,10 +1,12 @@
-// ------------------- 3. Method Overriding -------------------
+// ------------------- 🔹 3. Method Overriding 🔹 -------------------
 //
-// Write a Java program to create a class called Shape with a method called
-// getArea(). Create a subclass called Rectangle that overrides the getArea()
+// 💡 Write a Java program to create a class called `Shape` with a method:
+//     - `getArea()`
+//
+// Then create a subclass called `Rectangle` that overrides the `getArea()`
 // method to calculate the area of a rectangle.
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Area of Rectangle: 50
 
 

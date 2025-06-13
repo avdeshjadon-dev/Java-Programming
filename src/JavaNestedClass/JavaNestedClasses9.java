@@ -1,12 +1,14 @@
-// ------------------- 9. Inner Class with Constructor -------------------
+// ------------------- 🔹Member Inner Class with Outer Reference -------------------
 //
-// Write a Java program to create an outer class called "Person" with an inner class "Address".
-// The Address class should have a constructor that takes parameters "city" and "state".
-// Create an instance of Address from the Person class and print the address details.
+// 💡 Write a Java program to demonstrate a **member inner class** that modifies the outer class fields.
+// Create a class `Person` with fields `city` and `state`. Define an inner class `Address`
+// that sets these values via the outer class reference.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// City: New York
-// State: New York
+// The outer class should include a method `display()` to print the city and state.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// City : Agra
+// Address : UttarPradesh
 
 
 package JavaNestedClass;

@@ -1,11 +1,15 @@
-// ------------------- 4. Abstract Class Animal with Multiple Methods -------------------
+// ------------------- 🔹 4. Abstract Class - Animal with Multiple Methods 🔹 -------------------
 //
-// Write a Java program to create an abstract class Animal with abstract methods
-// eat() and sleep(). Create subclasses Lion, Tiger, and Deer that extend the Animal
-// class and implement the eat() and sleep() methods differently based on their
-// specific behavior.
+// 💡 Write a Java program to create an abstract class `Animal` with two abstract methods:
+//     - `eat()`
+//     - `sleep()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then create three subclasses that extend `Animal`:
+//   ➤ `Lion`  - eats meat, sleeps 8 hours
+//   ➤ `Tiger` - eats meat, sleeps 10 hours
+//   ➤ `Deer`  - eats plants, sleeps 6 hours
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Lion eats meat and sleeps 8 hours
 // Tiger eats meat and sleeps 10 hours
 // Deer eats plants and sleeps 6 hours

@@ -1,21 +1,18 @@
-// ------------------- 6. Constructor with Validation -------------------
+// ------------------- 🔹 Constructor with Validation - Account Class 🔹 -------------------
 //
-// Create a class called "Account" with instance variables accountNumber and balance.
-// Implement a parameterized constructor with validation:
-//   - accountNumber must be non-null and non-empty
-//   - balance must be non-negative
-// Print an error message if validation fails.
+// 💡 Write a Java program that demonstrates how to use a **parameterized constructor** with input validation.
+// The `Account` class has two private fields: `accountNumber` and `balance`.
+// The constructor checks that:
+//    - `accountNumber` is positive
+//    - `balance` is non-negative
+// If any check fails, an error message is printed and values are not assigned.
 //
-// ------------------- SAMPLE OUTPUT -------------------
-// Valid Account:
-// Account Number: 12345
-// Balance: 1000.0
+// 🧠 The program creates an `Account` object with valid values and displays its details.
 //
-// Invalid Account (empty account number):
-// Error: Account number cannot be null or empty
-//
-// Invalid Account (negative balance):
-// Error: Balance cannot be negative
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
+// Account Number: 123212342
+// Balance: 65347.76
+
 
 package JavaConstructor;
 
@@ -46,7 +43,6 @@ class Account {
 }
 
 public class Constructor6 {
-
 
     public static void main(String[] args) {
         Account myAccount = new Account(123212342, 65347.76);

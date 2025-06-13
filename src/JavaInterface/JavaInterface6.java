@@ -1,11 +1,12 @@
-// ------------------- 6. Drawable Interface with Shape Implementations -------------------
+// ------------------- 🔹Drawable Interface -------------------
 //
-// Write a Java program to create an interface Drawable with a method draw() that
-// takes no arguments and returns void. Create three classes Circle, Rectangle,
-// and Triangle that implement the Drawable interface and override the draw()
-// method to draw their respective shapes.
+// 💡 Write a Java program to create an interface called `Drawable` with a method:
+//     - `draw()`
 //
-// ------------------- SAMPLE OUTPUT -------------------
+// Then implement this interface in three classes: `Circle1`, `Rectangle2`, and `Triangle1`.
+// Each class should override the `draw()` method to display a shape-specific message.
+//
+// ------------------- 🧾 SAMPLE OUTPUT -------------------
 // Drawing Circle
 // Drawing Rectangle
 // Drawing Triangle
