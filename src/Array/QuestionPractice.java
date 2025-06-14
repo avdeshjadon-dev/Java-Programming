@@ -65,7 +65,6 @@ public class QuestionPractice {
                 return i;
             }
             leftSum += arr[i];
-
         }
         return -1;
     }
@@ -75,13 +74,12 @@ public class QuestionPractice {
         for (int i = 0; i < arr.length; i++) {
             boolean isUnique = true;
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] == arr[j] && i!=j) {
+                if (arr[i] == arr[j] && i != j) {
                     isUnique = false;
                     break;
                 }
-
             }
-            if(isUnique){
+            if (isUnique) {
                 return arr[i];
             }
         }
@@ -89,11 +87,37 @@ public class QuestionPractice {
     }
 
     public static void main(String[] args) {
+        int[] arr = {0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1};
+        int left = 0;
+        int right = arr.length - 1;
+        while (left < right) {
+            if (arr[left] == 1 && arr[right] == 0) {
+                int temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+                left++;
+                right--;
+            } else {
+                if (arr[left] == 0) left++;
+                if (arr[right] == 1) right--;
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+//        int num=42;
+//        int ans=0;
+//        int pow=1;
+//        while(num>0){
+//            int rem=num%2;
+//            num=num/2;
+//            ans+=rem*pow;
+//            pow=pow*10;
+//        }
+//        System.out.print(ans+" ");
 //        int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1};
-        int[] arr = createArray();
-        int result=uniqueIndex(arr);
-        System.out.println();
-        System.out.println(result);
+//        int[] arr = createArray();
+//        int result=uniqueIndex(arr);
+//        System.out.println();
+//        System.out.println(result);
 //        System.out.println("Pivot Index is : " + pivotElement(arr));
 
 //        System.out.println(Arrays.sort(arr));

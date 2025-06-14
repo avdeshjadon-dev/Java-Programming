@@ -64,7 +64,6 @@ class BankAccount {
         System.out.println("Interest Rate: " + interestRate + "%");
     }
 }
-
 public class JavaStaticMember8 {
     public static void main(String[] args) {
         BankAccount.setBankName("National Bank");
