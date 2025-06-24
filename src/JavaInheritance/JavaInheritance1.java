@@ -18,7 +18,7 @@ class Animal {
     }
 }
 
-class SubClass extends Animal {
+class Cat extends Animal {
     @Override
     void makeSound() {
         System.out.println("Yaha par maine override kar diya hai:");
@@ -27,7 +27,7 @@ class SubClass extends Animal {
 
 public class JavaInheritance1 {
     public static void main(String[] args) {
-        SubClass subClass = new SubClass();
-        subClass.makeSound();
+        Cat cat = new Cat();
+        cat.makeSound();
     }
 }

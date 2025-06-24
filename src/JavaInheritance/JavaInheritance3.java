@@ -37,6 +37,6 @@ public class JavaInheritance3 {
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle(23.3, 34.3);
         double ans = rectangle.getArea();
-        System.out.println("Area of rectangle is : " + String.format("%.2f", rectangle.getArea()));
+        System.out.println("Area of rectangle is : " + String.format("%.2f",ans));
     }
 }

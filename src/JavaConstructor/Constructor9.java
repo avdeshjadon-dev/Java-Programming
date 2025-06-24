@@ -12,8 +12,6 @@
 // ClassRoom : Alpha Class
 // Students : Avdesh Aman Suman
 
-
-
 package OOPS;
 
 class Classroom {
@@ -43,7 +41,6 @@ class Classroom {
 }
 
 public class Constructor9 {
-
 
     public static void main(String[] args) {
         String[] studentArray = {"Avdesh", "Aman", "Suman"};
