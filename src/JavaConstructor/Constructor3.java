@@ -46,7 +46,6 @@ class Book {
 
 public class Constructor3 {
 
-
     public static void main(String[] args) {
         //for default constructor
         Book myBook = new Book();
@@ -54,12 +53,10 @@ public class Constructor3 {
         System.out.println(myBook.author);
         System.out.println(myBook.price);
         // for second constructor
-
         Book myBook1 = new Book("Lady Gaga", "Munsi Premchand");
         System.out.println(myBook1.title);
         System.out.println(myBook1.author);
         System.out.println(myBook1.price);
-
         //for third constructor
         Book myBook2 = new Book("Janeman", "Avdesh", 10000);
         System.out.println(myBook2.title);
