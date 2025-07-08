@@ -1,6 +1,6 @@
 // ------------------- 🔹Interface with Multiple Implementations 🔹 -------------------
 //
-// 💡 Write a Java program to create an interface called `Shape` with a method:
+// 💡 Write a Java program to create an interface named as `Shape` with a method:
 //     - `getArea()`
 //
 // Add a default method:
