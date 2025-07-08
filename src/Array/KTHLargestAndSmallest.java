@@ -1,6 +1,6 @@
 // ------------------- 🔹 Kᵗʰ Smallest & Largest in Array 🔹 -------------------
 //
-// 💡 Write a Java program to find the Kᵗʰ smallest and Kᵗʰ largest elements in an array.
+// 💡Write a Java program to find the Kᵗʰ smallest and Kᵗʰ largest elements in an array.
 // The user should input the array elements and the value of K.
 // First, sort the array and then find:
 // - Kᵗʰ smallest → element at index (K - 1)
