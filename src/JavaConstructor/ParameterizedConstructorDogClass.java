@@ -32,7 +32,7 @@ class Dog {
 
 }
 
-public class Constructor2 {
+public class ParameterizedConstructorDogClass {
 
 
     public static void main(String[] args) {

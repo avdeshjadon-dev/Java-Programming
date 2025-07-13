@@ -64,7 +64,7 @@ class SavingAccount extends BankAccount {
         }
     }
 }
-public class JavaInheritance5 {
+public class MethodOverridingwithCondition {
     public static void main(String[] args) {
         System.out.println("Create a Bank Account object (A/c No. PNB1324) with initial balance of ₹23422.34:");
         SavingAccount PNB1324=new SavingAccount("PNB1324",23422.34);

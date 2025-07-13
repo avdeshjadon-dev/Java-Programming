@@ -61,7 +61,7 @@ class Circle extends Shape1 {
     }
 }
 
-public class JavaInheritance8 {
+public class MethodOverriding5 {
     public static void main(String[] args) {
         Shape1 shape1 = new Shape1(20);
         shape1.getArea();

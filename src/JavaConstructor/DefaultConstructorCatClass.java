@@ -31,7 +31,7 @@ class Cat {
     }
 }
 
-public class Constructor1 {
+public class DefaultConstructorCatClass {
     public static void main(String[] args) {
         Cat myCat = new Cat();
         System.out.println("Cat Name : " + myCat.getName());

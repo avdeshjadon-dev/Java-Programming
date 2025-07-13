@@ -44,7 +44,7 @@ class Book {
     }
 }
 
-public class Constructor3 {
+public class ConstructorOverloadingBookClass {
 
     public static void main(String[] args) {
         //for default constructor

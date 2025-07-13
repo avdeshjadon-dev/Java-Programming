@@ -22,7 +22,7 @@ class Cheetah extends Animal1{
         System.out.println("I am Running");
     }
 }
-public class JavaInheritance6 {
+public class MethodOverriding4 {
     public static void main(String[] args) {
         Cheetah cheetah=new Cheetah();
         cheetah.move();

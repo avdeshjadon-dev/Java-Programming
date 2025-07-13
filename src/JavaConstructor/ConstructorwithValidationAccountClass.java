@@ -42,7 +42,7 @@ class Account {
     }
 }
 
-public class Constructor6 {
+public class ConstructorwithValidationAccountClass {
 
     public static void main(String[] args) {
         Account myAccount = new Account(123212342, 65347.76);

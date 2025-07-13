@@ -151,7 +151,7 @@ class MotorCycle extends Vehicle1 {
     }
 }
 
-public class JavaInheritance9 {
+public class VehicleClassHierarchy {
     public static void main(String[] args) {
         Truck truck = new Truck("Ford", "f-150", 2020, "Diesel");
         Car car = new Car("Toyota", "Camery", 2019, "Petrol");

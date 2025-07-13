@@ -43,7 +43,7 @@ class Point {
     }
 }
 
-public class Constructor8 {
+public class ConstructorOverloadingPointClass {
 
 
     public static void main(String[] args) {

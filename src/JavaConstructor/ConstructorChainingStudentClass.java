@@ -42,7 +42,7 @@ class Student {
     }
 }
 
-public class Constructor4 {
+public class ConstructorChainingStudentClass {
 
 
     public static void main(String[] args) {

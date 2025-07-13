@@ -31,7 +31,7 @@ class Rectangle {
     }
 }
 
-public class Constructor5 {
+public class ParameterizedConstructorRectangleClass {
 
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle(5, 6);

@@ -54,7 +54,7 @@ class Employee1 extends Person {
     }
 }
 
-public class JavaInheritance7 {
+public class MethodOverridingandNewMethod2 {
     public static void main(String[] args) {
         Employee1 emp = new Employee1("Amrita", "Ghatoye", "E12345", "Software Engineer");
 

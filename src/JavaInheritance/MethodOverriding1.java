@@ -25,7 +25,7 @@ class Cat extends Animal {
     }
 }
 
-public class JavaInheritance1 {
+public class MethodOverriding1 {
     public static void main(String[] args) {
         Cat cat = new Cat();
         cat.makeSound();

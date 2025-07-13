@@ -40,7 +40,7 @@ class Classroom {
     }
 }
 
-public class Constructor9 {
+public class ConstructorwithArrayParameterClassroomClass {
 
     public static void main(String[] args) {
         String[] studentArray = {"Avdesh", "Aman", "Suman"};

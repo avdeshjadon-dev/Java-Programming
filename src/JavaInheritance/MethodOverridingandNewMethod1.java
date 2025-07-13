@@ -47,7 +47,7 @@ class HRManager extends Employee {
     }
 }
 
-public class JavaInheritance4 {
+public class MethodOverridingandNewMethod1 {
     public static void main(String[] args) {
         HRManager manager = new HRManager(50000);
         manager.work();

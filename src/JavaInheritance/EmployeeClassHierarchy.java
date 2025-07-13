@@ -107,7 +107,7 @@ class Programmer extends Employee2 {
     }
 }
 
-public class JavaInheritance10 {
+public class EmployeeClassHierarchy {
     public static void main(String[] args) {
         Manager manager = new Manager("Amrita", "Shiv coloney, Radaur", 87000, "Manager");
         Developer developer = new Developer("Avdesh", "Jatpura Agra", 736477.32, "Developer");
