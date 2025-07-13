@@ -23,7 +23,7 @@ package Array;
 import java.util.Scanner;
 
 public class ArrayManupulation {
-    static int UniqueElement(int[] arr) {
+    public static int UniqueElement(int[] arr) {
         int index = -1;
         for (int i = 0; i < arr.length; i++) {
             boolean isUnique = true;

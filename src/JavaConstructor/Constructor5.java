@@ -11,7 +11,6 @@
 // Width : 6
 
 
-
 package JavaConstructor;
 
 class Rectangle {
@@ -38,6 +37,5 @@ public class Constructor5 {
         Rectangle rectangle = new Rectangle(5, 6);
         System.out.println("Length : " + rectangle.getLength());
         System.out.println("Width : " + rectangle.getWidth());
-
     }
 }
