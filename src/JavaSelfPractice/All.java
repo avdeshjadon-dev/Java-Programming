@@ -2,10 +2,25 @@ package JavaSelfPractice;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+// agar unique element nikalana hai to hamesha baki sabki values ka dhyan mt do tum wo wali value ka kuch bhi kar skaat ho
 public class All {
     public static void main(String[] args) {
-
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[i] == arr[j] && i != j) {
+                    arr[i] = -1;
+                    arr[j] = -1;
+                }
+            }
+        }
+        int ans = -1;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > 0) {
+                ans = arr[i];
+            }
+        }
+        System.out.println(ans);
 
 //    public class QuestionPractice {
 //        public static void printArray(int[] arr) {
