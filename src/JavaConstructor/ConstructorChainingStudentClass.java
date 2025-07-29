@@ -25,14 +25,7 @@ class Student {
     char grade;
 
     public Student() {
-        // yaha par mai define bhi kar sakata hu
-
-//            this.studentId=0;
-//            this.studentName="Payal";
-//            this.grade='D';
-
-        this(9, "Priya", 'O');  //aise bhi value assign kar sakate hai
-
+        this(9, "Priya", 'O');
     }
 
     public Student(int studentId, String studentName, char grade) {
@@ -55,7 +48,5 @@ public class ConstructorChainingStudentClass {
         System.out.println("Student ID : " + student2.studentId);
         System.out.println("Student Name : " + student2.studentName);
         System.out.println("Grade : " + student2.grade);
-
-
     }
 }
