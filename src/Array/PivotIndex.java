@@ -52,7 +52,6 @@ public class PivotIndex {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        Solution.pivotIndex(arr);
         System.out.println("Pivot Index is: " + Solution.pivotIndex(arr));
     }
 }
