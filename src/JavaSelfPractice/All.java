@@ -2,9 +2,50 @@ package JavaSelfPractice;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 // agar unique element nikalana hai to hamesha baki sabki values ka dhyan mt do tum wo wali value ka kuch bhi kar skaat ho
 public class All {
     public static void main(String[] args) {
+
+//    static int[] nice(int[] arr,int num) {
+//        while (num > 0) {
+//            for (int i = 0; i < arr.length; i++) {
+//                int temp = 0;
+//                temp = arr[arr.length - 1];
+//                arr[arr.length - i] = arr[arr.length - 1 - i];
+//                arr[0] = temp;
+//            }
+//            num--;
+//        }
+//        return arr;
+//    }
+//        Scanner sc = new Scanner(System.in);
+//        int[] arr = {1, 2, 3, 4, 5};
+//        int k = sc.nextInt();
+//        int[] result = nice(arr, k);
+//        for (int i = 0; i < result.length; i++) {
+//            System.out.print(result[i] + " ");
+//        }
+
+//        Scanner sc = new Scanner(System.in);
+//        int num = sc.nextInt();
+//        num = num % arr.length;
+//        int[] ans=kthRotation(arr,num);
+//        System.out.println(Arrays.toString(ans));
+//    static int[] kthRotation(int[] arr,int num) {
+//        int[] new_arr=new int[arr.length-1];
+//        for(int i=0;i<num;i++){
+//            new_arr[i]=arr[arr.length-num+i];
+//        }
+//        int j=0;
+//        for(int i=num;i<new_arr.length;i++){
+//            new_arr[i]=arr[j];
+//            j++;
+//        }
+//        return new_arr;
+//    }
+
+
 //        String avdesh="wertyuio876543ghj";
 //        for(int )
 //    }
