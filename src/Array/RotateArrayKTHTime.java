@@ -39,7 +39,7 @@ public class RotateArrayKTHTime {
             System.out.print("Enter the " + (i + 1) + " element of the array: ");
             arr[i] = sc.nextInt();
         }
-        System.out.print("Original Array is: ");
+        System.out.print("Original Array is : ");
         for (int value : arr) {
             System.out.print(value + " ");
         }
