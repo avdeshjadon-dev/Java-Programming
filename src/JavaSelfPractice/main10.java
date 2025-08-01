@@ -12,7 +12,6 @@ class Rotate {
             end--;
         }
     }
-
     public static int[] rotateArray(int[] arr, int k) {
         int n = arr.length;
         reverseArray(arr, 0, k);
@@ -21,7 +20,6 @@ class Rotate {
         return arr;
     }
 }
-
 public class main10 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
