@@ -45,7 +45,7 @@ As a student with a deep interest in software development, I created this reposi
 ## 📬 Contact
 
 - 📧 Email: [avdeshjaadon@gmail.com](mailto:avdeshjaadon@gmail.com)
-- 🐙 GitHub: [github.com/avdeshjadon-dev](https://github.com/avdeshjadon-dev)
+- 🐙 GitHub: [github.com/avdeshjadon](https://github.com/avdeshjadon)
 
 ---
 
