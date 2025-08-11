@@ -1,20 +1,39 @@
 package JavaSelfPractice;
 
-import java.util.Arrays;
+public class practice {
 
+    static int uniqueNumber(int[] arr) {
+        int index = -1;
+        for (int i = 0; i < arr.length; i++) {
+            boolean isUnique = true;
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[i] == arr[j] && i != j) {
+                    isUnique = false;
+                    break;
+                }
+            }
+            if (isUnique) {
+                return arr[i];
+            }
+        }
+        return index;
+    }
 
+    static int repeat(int[] arr) {
+        int num = -1;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++)
+                if (arr[i] == arr[j]) {
+                    num = arr[i];
 
-public class practice  {
+                    break;
+                }
+        }
+        return num;
+    }
 
-     static  int[] kthLargestAndSmallest(int[] arr,int num){
-         Arrays.sort(arr);
-         int[] ans={arr[num-1],arr[arr.length-num]};
-         return ans;
-     }
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5,6,7,8,9,435,345,7,3,2,5475678,54};
-        int num=2;
-        int[] result=kthLargestAndSmallest(arr,num);
-        System.out.println(Arrays.toString(result));
+        int[] arr = {1, 2, 3, 4, 5, 4, 3, 2, 1};
+        System.out.println(repeat(arr));
     }
 }
