@@ -17,8 +17,8 @@
 //
 // ------------------- 📤 SAMPLE OUTPUT -------------------
 //
-// Original Array is : 1 2 2 2 2 5
-// Frequency Array is : 0 1 4 0 0 1
+// Original Array is : 3 5 3 1 7 9
+// Frequency Array is : 0 1 4 0 0 0
 
 
 package Array;
