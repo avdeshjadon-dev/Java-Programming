@@ -27,14 +27,13 @@
 // <----YES---->
 
 
-
 package Array;
 
 import java.util.Scanner;
 
 public class FrequencyArray {
     public static int[] frequencyArray(int[] arr) {
-        int[] freq = new int[100001];
+        int[] freq = new int[arr.length+1];
         for (int i = 0; i < arr.length; i++) {
             freq[arr[i]]++;
         }
@@ -55,20 +54,12 @@ public class FrequencyArray {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
+        System.out.println()
+        ;
         int[] freq = frequencyArray(arr);
-        System.out.println();
-        System.out.print("Enter the number of queries : ");
-        int q = sc.nextInt();
-        while (q > 0) {
-            System.out.print("Enter the number to be searched : ");
-            int number = sc.nextInt();
-            if (freq[number] > 0) {
-                System.out.println("<----YES---->");
-            } else {
-                System.out.println("<----NO---->");
-            }
-            q--;
+        System.out.print("Frequency Array is : ");
+        for (int i = 0; i < freq.length; i++) {
+            System.out.print(freq[i] + " ");
         }
-
     }
 }
