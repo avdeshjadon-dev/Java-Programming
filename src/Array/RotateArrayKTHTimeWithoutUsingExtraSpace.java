@@ -2,8 +2,8 @@
 //
 // 💡 Write a Java program that rotates an array to the right by **K** positions.
 // Use **encapsulation** by creating two classes:
-// - `CreateArray`: for taking input and storing the array and rotation number
-// - `ArrayRotator`: for rotating the array using reversal logic
+// - CreateArray : for taking input and storing the array and rotation number
+// - ArrayRotator : for rotating the array using reversal logic
 //
 // 🧠 You will:
 // - Use getters to access array and K
