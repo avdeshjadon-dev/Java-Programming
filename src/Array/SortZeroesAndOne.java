@@ -16,6 +16,8 @@
 // ------------------- 📤 SAMPLE OUTPUT -------------------
 // Sorted Array   : 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
 
+// this is done using two pointer approach
+
 
 package Array;
 
