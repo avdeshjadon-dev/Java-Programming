@@ -27,7 +27,6 @@ public class SortedSquaresOfSortedArray {
         int left = 0;
         int right = arr.length - 1;
         int index = arr.length - 1;
-
         while (left <= right) {
             int leftSquare = arr[left] * arr[left];
             int rightSquare = arr[right] * arr[right];
@@ -41,7 +40,6 @@ public class SortedSquaresOfSortedArray {
             }
             index--;
         }
-
         System.out.println(Arrays.toString(ans));
     }
 }
