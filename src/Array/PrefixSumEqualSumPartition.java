@@ -1,3 +1,25 @@
+// ------------------- 🔍 Equal Sum Partition using Prefix Sum 🔍 -------------------
+//
+// 💡 Write a Java program to check if an array can be partitioned into two parts
+// such that the sum of elements in both parts is equal.
+// Use the **Prefix Sum** approach.
+//
+// 🧠 You will:
+// - Input the array from the user
+// - Calculate total sum of elements
+// - Check if a prefix and suffix have equal sum at any point
+// - Output true or false based on whether such a partition exists
+//
+// ------------------- 🧾 SAMPLE INPUT -------------------
+// Enter the size of the array: 5
+// Enter all the elements of the array: 1 2 3 3 2
+//
+// Original Array is : 1 2 3 3 2
+//
+// ------------------- 📤 SAMPLE OUTPUT -------------------
+// Can be partitioned into two equal sum parts: true
+//
+
 package Array;
 
 import java.util.Scanner;
