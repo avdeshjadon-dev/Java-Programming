@@ -48,5 +48,6 @@ public class PrefixSumEqualSumPartition {
         System.out.print("Original Array is : ");
         PrintArray(arr);
         System.out.println();
+        System.out.println("Equal partition possible : "+equalSumPartition(arr));
     }
 }
