@@ -35,26 +35,11 @@ public class RoughWork {
         System.out.print("Original Array is : ");
         PrintArray(arr);
         System.out.println();
-        System.out.print("Enter the number of queries : ");
         int q = sc.nextInt();
         int[] pref = PrefixArray(arr);
         System.out.print("Prefix Sum is : ");
         PrintArray(pref);
-        System.out.println();
-        while (q-- > 0) {
-            System.out.print("Enter Starting Index (included) : ");
-            int l = sc.nextInt();
-            System.out.print("Enter Ending Index (included) : ");
-            int r = sc.nextInt();
-            if (l == 0 || r == 0) {
-                System.out.println("Please Select the number from (1 to " + (arr.length - 1) + ") .......");
-            } else {
-                int ans = pref[r] - pref[l - 1];
-                System.out.println("Required Sum is : " + ans);
-                System.out.println();
-            }
 
-        }
 
     }
 }
